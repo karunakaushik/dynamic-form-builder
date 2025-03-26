@@ -75,7 +75,7 @@ const Field: React.FC<FieldProps> = ({ field, value, onChange, classes }) => {
                 value={opt}
                 checked={value === opt}
                 onChange={() => onChange(name, opt)}
-                className={`${classes?.radiofield} border mr-2`}
+                className={`${classes?.radiofield}`}
                 required={required}
               />
               {opt}
@@ -96,7 +96,7 @@ const Field: React.FC<FieldProps> = ({ field, value, onChange, classes }) => {
         value={value || ""}
         onChange={(e) => onChange(name, e.target.value)}
         required={required}
-        className={`${styles?.input} ${classes?.inputField} border p-2 w-full`}
+        className={`${styles?.input} ${classes?.inputField}`}
       />
     </div>
   );
