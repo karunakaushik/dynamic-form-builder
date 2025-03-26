@@ -1,0 +1,47 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: start;
+  width: 100%;
+}
+.label {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 1rem;
+}
+
+.input {
+  border: 1px solid white;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  width: 100%;
+}
+
+.radioOptions {
+  display: flex;
+  gap: 2rem;
+}
+.inputSelect {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.multicheckboxRoot {
+  display: flex;
+  gap: 4rem;
+}
+
+.multicheckboxOptions {
+  display: flex;
+  gap: 2rem;
+  flex-direction: row !important;
+}
+.error {
+  color: red;
+  font-size: 0.875rem;
+  text-align: start;
+  padding-top: 0.25rem;
+}
